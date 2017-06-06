@@ -1,3 +1,3 @@
 # smartParkingDisplayModule
 Takes in data from sensors using Serial Communication from other arduinos connected in series. P10 modules are used using DMD Library (opensource) from Freetronics. 
-a
+Takes in data from sensors using Serial Communication from other arduinos connected in series. P10 modules are used using DMD Library (opensource) from Freetronics. This master arduino would accept string in format "S1" followed by a number between 0 to 255. 0 represents a slot is vacant and 1 represents that the slot is filled. Therefore, 255 represents all slots are booked, and 0 represents that every slot is free and so on. (8 bit data can be used for 8 slots, and so on.)
